@@ -28,6 +28,12 @@ header{
     justify-content: center;
     text-align: center;
 }
+header input{
+    display: none;
+}
+header label{
+    display: none;
+}
 .navbar{
     display: flex;
     list-style: none;
@@ -305,7 +311,204 @@ footer{
         justify-content: center;
         text-align: center;
     }
-}
+} 
 
 @media(max-width: 1043px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-carryonda{
+        margin-inline-start: 36%;
+    }
+    .logo-burguer{
+        width: 400px;
+    }
+    .navbar{
+        display: none;
+    }
+    input:checked ~ul{
+        display: block;
+    }
+    input{
+        display: none;
+    }
+    label{
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid teal;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+    li{
+        display: block;
+        background-color: teal;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid white;
+    }
+}
+
+@media(max-width: 909px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-carryonda{
+        margin-inline-start: 34%;
+    }
+}
+
+@media(max-width: 911px){
+    .texto-card3{
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 907px){
+    .card1-img{
+        width: 700px;
+        height: 500px;
+    }    
+    .card2-img{
+        width: 700px;
+        height: 500px;
+    }
+    .video{
+        width: 700px;
+        height: 500px;
+    }
+    .flexfooter{
+        display: flex;
+        flex-direction: column;
+        gap: .3125rem;
+    }
+}
+
+@media(max-width: 770px){
+    .texto-card1{
+        font-size: 20px;
+    }
+    .texto-card2{
+        font-size: 20px;
+    }
+    .texto-card3{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 699px){
+    .logo-carryonda{
+        margin-inline-start: 200px;
+    }
+    .card1-img{
+        width: 500px;
+        height: 300px;
+    }
+    .card2-img{
+        width: 500px;
+        height: 300px;
+    }
+    .video{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 639px){
+    .logo-carryonda{
+        margin-inline-start: 175px;
+    }
+}
+
+@media(max-width: 533px){
+    .logo-carryonda{
+        margin-inline-start: 120px
+    }
+}
+
+@media(max-width: 509px){
+    .logo-carryonda{
+        margin-inline-start: 100px;
+    }
+    .texto-card1 p{
+        font-size: medium;
+    }
+    .card1-img{
+        width: 300px;
+        height: 200px;
+    }
+    .texto-card2 p{
+        font-size: medium;
+    }
+    .card2-img{
+        width: 300px;
+        height: 300px;
+    }
+    .texto-card3 p{
+        font-size: medium;
+    }
+    .video{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 443px){
+    .logo-carryonda{
+        margin-inline-start: 74px;
+    }
+}
+
+@media(max-width: 371px){
+    .logo-carryonda{
+        margin-inline-start: 40px;
+    }
+}
+
+@media(max-width: 320px){
+    .card1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .texto-card1{
+        font-size: medium;
+    }
+    .card1-img{
+        width: 300px;
+        height: 200px;
+    }
+    .texto-card2{
+        font-size: medium;
+    }
+    .card2-img{
+        width: 300px;
+        height: 200px;
+    }
+    .texto-card3{
+        font-size: medium;
+    }
+    .video{
+        width: 300px;
+        height: 200px;
+    }
+    .flexfooter{
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        justify-content: center;
+        text-align: center;
+    }
 }
