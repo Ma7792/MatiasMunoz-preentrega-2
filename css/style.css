@@ -28,14 +28,12 @@ header{
     justify-content: center;
     text-align: center;
 }
-header input{
+.menu-burger{
     display: none;
 }
-header label{
-    display: none;
-}
-.navbar{
+.inicio{
     display: flex;
+    background-color: teal;
     list-style: none;
     flex-direction: row;
     justify-content: center;
@@ -43,13 +41,13 @@ header label{
     align-items: center;
     gap: 5.625rem;
 }
-.navbar li a{
+.inicio li a{
     text-decoration: none;
     color: white;
     display: inline;
     justify-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
 }
 .logo-carryonda{
     grid-column: 1/2;
@@ -157,6 +155,27 @@ main{
     width: 800px;
     height: 500px;
 }
+.ecoturismo{
+    grid-column: 2/6;
+    grid-row: 1/5;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    flex-direction: column;
+    font-size: 80px;
+    text-align: center
+}
+.ecoturismo h1{
+    color: teal;
+    font-size: 100px;
+}
+.ecoturismo h2{
+    font-size: 40px;
+}
+.ecoturismo-video{
+    width: 1200px;
+    height: 1000px;
+}
 footer{
     background-color: teal;
     grid-area: footer;
@@ -184,7 +203,7 @@ footer{
 }
 
 @media (max-width: 101.8125rem){
-    .navbar li a{
+    .inicio li a{
         text-decoration: none;
         color: white;
         display: inline;
@@ -306,6 +325,16 @@ footer{
 }
 
 @media(max-width: 1291px){
+    .ecoturismo h1{
+        font-size: 80px;
+    }
+    .ecoturismo h2{
+        font-size: 30px;
+    }
+    .ecoturismo-video{
+        width: 800px;
+        height: 700px;
+    }
     .flexfooter{
         gap: 80px;
         justify-content: center;
@@ -313,22 +342,22 @@ footer{
     }
 } 
 
-@media(max-width: 1043px){
-    header{
+@media(max-width: 1084px){
+    .menu-burger{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
-    .logo-carryonda{
-        margin-inline-start: 36%;
+    .inicio{
+        display: inline-block;
     }
-    .logo-burguer{
-        width: 400px;
-    }
-    .navbar{
+    .menu-barra{
+        display: none;
+    }    
+}
+@media(max-width: 1059px){
+    ul{
         display: none;
     }
-    input:checked ~ul{
+    input:checked ~ ul{
         display: block;
     }
     input{
@@ -353,6 +382,59 @@ footer{
         padding: 10px;
         list-style: none;
         border-bottom: 1px solid white;
+    }
+}
+
+@media(max-width: 1043px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-carryonda{
+        margin-inline-start: 36%;
+    }
+    ul{
+        display: none;
+    }
+    input:checked ~ ul{
+        display: block;
+    }
+    input{
+        display: none;
+    }
+    label{
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid teal;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+    li{
+        display: block;
+        background-color: teal;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid white;
+    }
+}
+
+@media(max-width: 809px){
+    .ecoturismo h1{
+        font-size: 50px;
+    }
+    .ecoturismo h2{
+        font-size: 25px;
+    }
+    .ecoturismo-video{
+        width: 500px;
+        height: 450px;
     }
 }
 
@@ -435,6 +517,12 @@ footer{
     }
 }
 
+@media(max-width: 599px){
+    .ecoturismo h2{
+        font-size: 20px;
+    }
+}
+
 @media(max-width: 509px){
     .logo-carryonda{
         margin-inline-start: 100px;
@@ -460,6 +548,16 @@ footer{
         width: 300px;
         height: 200px;
     }
+    .ecoturismo{
+        text-align: center;
+    }
+    .ecoturismo h1{
+        font-size: 40px;
+    }
+    .ecoturismo-video{
+        width: 350px;
+        height: 275px;
+    }
 }
 
 @media(max-width: 443px){
@@ -472,6 +570,17 @@ footer{
     .logo-carryonda{
         margin-inline-start: 40px;
     }
+}
+
+@media(max-width: 347px){
+    .ecoturismo h1{
+        font-size: 30px;
+    }
+    .ecoturismo-video{
+        width: 275px;
+        height: 250;
+    }
+
 }
 
 @media(max-width: 320px){
