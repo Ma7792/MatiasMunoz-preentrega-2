@@ -1,0 +1,266 @@
+main{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: $background-color-head;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 600px 800px 500px 200px;
+    grid-template-areas:
+    "c1l1 c2l1 c3l1 c4l1 c5l1 c6l1 c7l1"
+    "c1l2 c2l2 c3l2 c4l2 c5l2 c6l2 c7l2"
+    "c1l3 c2l3 c3l3 c4l3 c5l3 c7l3 c7l3"
+    "c1l4 c2l4 c3l4 c4l4 c5l4 c6l4 c7l4";
+    .card1{
+        grid-column: 1/8;
+        grid-row: 1/2;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 200px 400px;
+        grid-template-areas: 
+        "c1l1 c2l1 c3l1 c4l1 c5l1 c6l1 c7l1"
+        "c1l2 c2l2 c3l2 c4l2 c5l2 c6l2 c7l2";
+        .texto-card1{
+            grid-column: 2/4;
+            grid-row: 1/3;
+            font-size: 35px;
+            text-align: right;
+            h2{
+                color: $background-color-general;
+                font-weight: .625rem;
+            }
+        }
+        .grid-img-card1{
+            grid-column: 4/7;
+            grid-row: 1/3;
+            .card1-img{
+                border-radius: 15%;
+                border: 2px solid $background-color-general;
+                width: 800px;
+                height: 500px;
+            }
+        }
+    }
+    .card2{
+        grid-column: 1/8;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 200px 400px;
+        grid-template-areas: 
+        "c1l1 c2l1 c3l1 c4l1 c5l1 c6l1 c7l1"
+        "c1l2 c2l2 c3l2 c4l2 c5l2 c6l2 c7l2";
+        .texto-card2{
+            grid-column: 5/7;
+            grid-row: 1/3;
+            font-size: 35px;
+            text-align: left;
+            h2{
+                color: $background-color-general;
+                font-weight: .625rem;
+            }
+        }
+        .grid-img-card2{
+            grid-column: 2/4;
+            grid-row: 1/3;
+            .card2-img{
+                border-radius: 15%;
+                border: 2px solid $background-color-general;
+                width: 800px;
+                height: 670px;
+            }
+        }
+    }
+    .card3{
+        grid-column: 1/8;
+        grid-row: 3/4;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 200px 400px 200px;
+        grid-template-areas: 
+        "c1l1 c2l1 c3l1 c4l1 c5l1 c6l1 c7l1"
+        "c1l2 c2l2 c3l2 c4l2 c5l2 c6l2 c7l2";
+        .texto-card3{
+            grid-column: 2/4;
+            grid-row: 1/3;
+            font-size: 35px;
+            text-align: right;
+        }
+        .video-card3{
+            grid-column: 4/7;
+            grid-row: 1/3;
+            .video{
+                border-radius: 15%;
+                border: 2px solid $background-color-general;
+                width: 800px;
+                height: 500px;
+            }
+        }
+    }
+    .ecoturismo{
+        grid-column: 2/7;
+        grid-row: 1/5;
+        display: flex;
+        justify-self: start;
+        align-items: center;
+        flex-direction: column;
+        font-size: 80px;
+        text-align: center;
+        h1{
+            color: $background-color-general;
+            font-size: 100px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        .ecoturismo-video{
+            width: 1200px;
+            height: 1000px;
+        }
+    }
+    .linea-de-temporada-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+        align-items: center;
+        h1{
+            font-size: 40px;
+            color: black;
+        }
+        h2{
+            font-size: 70px;
+            text-align: center;
+            color: $background-color-general;
+        }
+        .img-mexico{
+            grid-column: 3/5;
+            grid-row: 3/4;
+        }
+        .texto-temporada{
+            grid-column: 2/5;
+            p{
+                grid-column: 1/7;
+                font-size: 37px;
+            }
+        }
+        img{
+            width: 400px;
+        }
+    }
+    .grid-contacto{
+        grid-column: 3/6;
+        grid-row: 1/5;
+        p{
+            font-size: 50px;
+            text-align: center;
+        } 
+        .form{
+            width: 800px;
+            background-color: bisque;
+            font-size: 30px;
+            color: teal;
+            border-radius: 2%;
+            border: 2px solid $background-color-general;
+            text-align: left;
+            padding: 2%;
+            textarea{
+                width: 100%;
+                color: rgb(165, 164, 164);
+            }
+            &:focus-within{
+                color: black;
+            }
+            input[type="submit"]{
+                cursor: pointer;
+                &:hover{
+                    color: $background-color-general;
+                    background-color: white;
+                }
+            }
+        }
+    }
+    section{
+        grid-column: 3/6;
+        grid-row: 1/6;
+        .productos-varios{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+                color: $background-color-general;
+                font-size: 90px;
+            }
+            .manta-termica{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    font-size: 60px;
+                }
+                img{
+                    width: 900px;
+                    height: 500px
+                }
+                .texto-manta-termica{
+                    font-size: 35px;
+                    text-align: left;
+                }
+            }
+            .portadocumento{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;    
+                h2{
+                    font-size: 60px;
+                }
+                img{
+                    width: 900px;
+                    height: 700px
+                }
+                .texto-portadocumentos{
+                    font-size: 35px;
+                    text-align: left;
+                }            
+            }
+            .bolsomanta{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;    
+                h2{
+                    font-size: 60px;
+                }
+                img{
+                    width: 700px;
+                    height: 900px
+                }
+                .texto-bolsomanta{
+                    font-size: 35px;
+                    text-align: left;
+                }
+            }
+            .caja-de-recuerdos{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;    
+                h2{
+                    font-size: 60px;
+                }
+                img{
+                    width: 900px;
+                    height: 700px
+                }
+                .texto-caja{
+                    font-size: 35px;
+                    text-align: left;
+                }
+            }
+
+        }
+    }
+    
+}

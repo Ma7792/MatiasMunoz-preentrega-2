@@ -1,0 +1,51 @@
+header{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: $background-color-head;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 6.25rem);
+    grid-template-areas: 
+    "c1l1 c2l1 c3l1 c4l1 c5l1 c6l1 c7l1 c8l1 c9l1"
+    "c1l2 c2l2 c3l2 c4l2 c5l2 c6l2 c7l2 c8l2 c9l2"
+    "c1l3 c2l3 c3l3 c4l3 c5l3 c6l3 c7l3 c8l3 c9l3"
+    ;
+    .grid-header{
+        grid-column: 3/9;
+        grid-row: 2/3;
+        background-color: $background-color-general;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        .menu-burger{
+            display: none;
+        }
+        .inicio{ 
+            display: flex;
+            background-color: $background-color-general;
+            list-style: none;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            gap: 5.625rem;
+            a{
+                text-decoration: none;
+                color: white;
+                display: inline;
+                justify-content: center;
+                text-align: center;
+                font-size: 45px;
+            }
+        }
+    }
+}
+    logo-carryonda{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        width: 5vw;
+    }

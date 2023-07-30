@@ -1,0 +1,15 @@
+footer{
+    background-color: $background-color-general;
+    text-decoration: none;
+    color: white;
+    .flexfooter{
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        gap: 12.5rem;
+        justify-content: center;
+        text-align: center;
+    }
+}

@@ -138,35 +138,28 @@ main {
     main .ecoturismo .ecoturismo-video {
       width: 1200px;
       height: 1000px; }
-  main .linea-de-temporada {
-    grid-column: 2/7;
-    grid-row: 2/4;
-    grid-row-start: 1;
-    justify-content: center;
-    text-align: center;
-    display: grid;
+  main .linea-de-temporada-flex {
     display: flex;
     flex-direction: column;
     justify-content: first baseline;
     align-items: center; }
-    main .linea-de-temporada h1 {
+    main .linea-de-temporada-flex h1 {
       font-size: 40px;
       color: black; }
-    main .linea-de-temporada h2 {
+    main .linea-de-temporada-flex h2 {
       font-size: 70px;
       text-align: center;
       color: teal; }
-    main .linea-de-temporada .img-mexico {
+    main .linea-de-temporada-flex .img-mexico {
       grid-column: 3/5;
       grid-row: 3/4; }
-    main .linea-de-temporada .texto-temporada {
+    main .linea-de-temporada-flex .texto-temporada {
       grid-column: 2/5; }
-      main .linea-de-temporada .texto-temporada p {
+      main .linea-de-temporada-flex .texto-temporada p {
         grid-column: 1/7;
         font-size: 37px; }
-    main .linea-de-temporada .carousel-item {
-      width: 600px;
-      height: 500px; }
+    main .linea-de-temporada-flex img {
+      width: 400px; }
   main .grid-contacto {
     grid-column: 3/6;
     grid-row: 1/5; }
@@ -183,7 +176,10 @@ main {
       text-align: left;
       padding: 2%; }
       main .grid-contacto .form textarea {
-        width: 100%; }
+        width: 100%;
+        color: #a5a4a4; }
+      main .grid-contacto .form:focus-within {
+        color: black; }
       main .grid-contacto .form input[type="submit"] {
         cursor: pointer; }
         main .grid-contacto .form input[type="submit"]:hover {
