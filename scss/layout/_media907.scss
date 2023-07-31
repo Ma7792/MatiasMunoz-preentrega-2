@@ -1,0 +1,19 @@
+@media(max-width: 907px){
+    .card1-img{
+        width: 700px;
+        height: 500px;
+    }    
+    .card2-img{
+        width: 700px;
+        height: 500px;
+    }
+    .video{
+        width: 700px;
+        height: 500px;
+    }
+    .flexfooter{
+        display: flex;
+        flex-direction: column;
+        gap: .3125rem;
+    }
+}

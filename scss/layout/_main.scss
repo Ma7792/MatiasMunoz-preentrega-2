@@ -243,21 +243,7 @@ main{
                 }
             }
             .caja-de-recuerdos{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;    
-                h2{
-                    font-size: 60px;
-                }
-                img{
-                    width: 900px;
-                    height: 700px
-                }
-                .texto-caja{
-                    font-size: 35px;
-                    text-align: left;
-                }
+                @extend .portadocumento
             }
 
         }
