@@ -1,0 +1,42 @@
+@media(max-width: 407px){
+    body{
+        header{
+            .logo-carryonda{
+                margin-inline-start: 40px;
+            }
+            .grid-header{
+                .collapse{
+                    .inicio{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        main{
+            .card1{
+                .grid-img-card1{
+                    .card1-img{
+                        width: 270px;
+                        height: 200px;
+                    }
+                }
+            }
+            .card2{
+                .grid-img-card2{
+                    .card2-img{
+                        width: 270px;
+                        height: 270px;
+                    }
+                }
+            }
+            .card3{
+                .video-card3{
+                    .video{
+                        width: 270px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}

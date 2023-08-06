@@ -1,5 +1,64 @@
 @media(max-width: 599px){
-    .ecoturismo h2{
-        font-size: 20px;
+    body{
+        main{
+            .card1{
+                .texto-card1{
+                    h2{
+                        color: $background-color-general;
+                        font-weight: 20px;
+                    }
+                    p{
+                        font-size: 17px;
+                    }
+                }
+            }
+            .card2{
+                .texto-card2{
+                    h2{
+                        color: $background-color-general;
+                        font-weight: .625rem;
+                    }
+                    p{
+                        font-size: 17px;
+                    }
+                }
+            }
+            .card3{
+                .texto-card3{
+                    h2{
+                        color: $background-color-general;
+                        font-weight: .625rem;
+                    }
+                    p{
+                        font-size: 17px;
+                    }
+                }
+            }
+            .ecoturismo{
+                h2{
+                    font-size: 20px;
+                }
+            }
+            .linea-de-temporada{
+                h2{
+                    font-size: 50px;
+                    text-align: center;
+                    color: teal;
+                }
+                .img-mexico{
+                    width: 500px;
+                }
+                .texto-temporada{
+                    grid-column: 2/5;
+                    p{
+                        grid-column: 1/7;
+                        font-size: 25px;
+                    }
+                }
+                img{
+                    width: 400px;
+                }
+            }
+        }
     }
 }

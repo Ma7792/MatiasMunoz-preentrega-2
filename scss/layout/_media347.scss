@@ -1,10 +1,62 @@
 @media(max-width: 347px){
-    .ecoturismo h1{
-        font-size: 30px;
+    body{
+        main{
+            section{
+                .productos-varios{
+                    .manta-termica{
+                        img{
+                            width: 220px;
+                            height: 210px;
+                        }
+                        .texto-manta-termica{
+                            font-size: 17px;
+                        }
+                    }
+                    .portadocumento{
+                        img{
+                            width: 210px;
+                            height: 260px;
+                        }
+                        .texto-portadocumentos{
+                            font-size: 17px;
+                        }
+                    }
+                    .bolsomanta{
+                        img{
+                            width: 210px;
+                            height: 260px;
+                        }
+                        .texto-bolsomanta{
+                            font-size: 17px;
+                        }
+                    }
+                    .caja{
+                        img{
+                            width: 220px;
+                            height: 210px;
+                        }
+                        .texto-caja{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+            .linea-de-temporada{
+                .texto-temporada{
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .ecoturismo{
+                h1{
+                    font-size: 30px;
+                }
+                .ecoturismo-video{
+                    width: 275px;
+                    height: 250px;
+                }
+            }
+        }
     }
-    .ecoturismo-video{
-        width: 275px;
-        height: 250;
-    }
-
 }

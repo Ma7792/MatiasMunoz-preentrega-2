@@ -670,80 +670,211 @@ main .color-main {
     margin-inline-start: 175px; } }
 
 @media (max-width: 599px) {
-  .ecoturismo h2 {
-    font-size: 20px; } }
+  body main .card1 .texto-card1 h2 {
+    color: teal;
+    font-weight: 20px; }
+  body main .card1 .texto-card1 p {
+    font-size: 17px; }
+  body main .card2 .texto-card2 h2 {
+    color: teal;
+    font-weight: .625rem; }
+  body main .card2 .texto-card2 p {
+    font-size: 17px; }
+  body main .card3 .texto-card3 h2 {
+    color: teal;
+    font-weight: .625rem; }
+  body main .card3 .texto-card3 p {
+    font-size: 17px; }
+  body main .ecoturismo h2 {
+    font-size: 20px; }
+  body main .linea-de-temporada h2 {
+    font-size: 50px;
+    text-align: center;
+    color: teal; }
+  body main .linea-de-temporada .img-mexico {
+    width: 500px; }
+  body main .linea-de-temporada .texto-temporada {
+    grid-column: 2/5; }
+    body main .linea-de-temporada .texto-temporada p {
+      grid-column: 1/7;
+      font-size: 25px; }
+  body main .linea-de-temporada img {
+    width: 400px; } }
 
 @media (max-width: 533px) {
-  .logo-carryonda {
-    margin-inline-start: 120px; } }
+  body header .logo-carryonda {
+    margin-inline-start: 20%; }
+  body main .card1 .grid-img-card1 {
+    grid-column: 4/7;
+    grid-row: 1/3; }
+    body main .card1 .grid-img-card1 .card1-img {
+      border-radius: 15%;
+      border: 2px solid teal;
+      width: 400px;
+      height: 300px; }
+  body main .card2 .grid-img-card2 {
+    grid-column: 2/4;
+    grid-row: 1/3; }
+    body main .card2 .grid-img-card2 .card2-img {
+      border-radius: 15%;
+      border: 2px solid teal;
+      width: 400px;
+      height: 370px; }
+  body main .card3 .video-card3 .video {
+    border-radius: 15%;
+    border: 2px solid teal;
+    width: 400px;
+    height: 300px; }
+  body main section .productos-varios h1 {
+    color: teal;
+    font-size: 70px; }
+  body main section .productos-varios .manta-termica h2 {
+    font-size: 50px; }
+  body main section .productos-varios .manta-termica img {
+    width: 400px;
+    height: 300px; }
+  body main section .productos-varios .manta-termica .texto-manta-termica {
+    font-size: 28px;
+    text-align: left; }
+  body main section .productos-varios .portadocumento h2 {
+    font-size: 50px; }
+  body main section .productos-varios .portadocumento img {
+    width: 400px;
+    height: 500px; }
+  body main section .productos-varios .portadocumento .texto-portadocumentos {
+    font-size: 28px;
+    text-align: left; }
+  body main section .productos-varios .bolsomanta h2 {
+    font-size: 50px; }
+  body main section .productos-varios .bolsomanta img {
+    width: 400px;
+    height: 500px; }
+  body main section .productos-varios .bolsomanta .texto-bolsomanta {
+    font-size: 28px;
+    text-align: left; }
+  body main section .productos-varios .caja h2 {
+    font-size: 50px; }
+  body main section .productos-varios .caja img {
+    width: 400px;
+    height: 300px; }
+  body main section .productos-varios .caja .texto-caja {
+    font-size: 28px;
+    text-align: left; } }
 
 @media (max-width: 509px) {
-  .logo-carryonda {
+  body header .logo-carryonda {
     margin-inline-start: 100px; }
-  .texto-card1 p {
-    font-size: medium; }
-  .card1-img {
-    width: 300px;
-    height: 200px; }
-  .texto-card2 p {
-    font-size: medium; }
-  .card2-img {
-    width: 300px;
-    height: 300px; }
-  .texto-card3 p {
-    font-size: medium; }
-  .video {
-    width: 300px;
-    height: 200px; }
-  .ecoturismo {
-    text-align: center; }
-  .ecoturismo h1 {
-    font-size: 40px; }
-  .ecoturismo-video {
+  body main .ecoturismo h1 {
+    color: teal;
+    font-size: 30px; }
+  body main .ecoturismo h2 {
+    font-size: 20px; }
+  body main .ecoturismo .ecoturismo-video {
     width: 350px;
     height: 275px; } }
 
 @media (max-width: 443px) {
-  .logo-carryonda {
-    margin-inline-start: 74px; } }
+  body header .logo-carryonda {
+    margin-inline-start: 74px; }
+  body main section .productos-varios h1 {
+    font-size: 35px; }
+  body main section .productos-varios .manta-termica h2 {
+    font-size: 27px; }
+  body main section .productos-varios .manta-termica img {
+    width: 300px;
+    height: 270px; }
+  body main section .productos-varios .manta-termica .texto-manta-termica {
+    font-size: 22px; }
+  body main section .productos-varios .portadocumento h2 {
+    font-size: 27px; }
+  body main section .productos-varios .portadocumento img {
+    width: 270px;
+    height: 300px; }
+  body main section .productos-varios .portadocumento .texto-portadocumentos {
+    font-size: 22px; }
+  body main section .productos-varios .bolsomanta h2 {
+    font-size: 27px; }
+  body main section .productos-varios .bolsomanta img {
+    width: 260px;
+    height: 300px; }
+  body main section .productos-varios .bolsomanta .texto-bolsomanta {
+    font-size: 22px; }
+  body main section .productos-varios .caja h2 {
+    font-size: 27px; }
+  body main section .productos-varios .caja img {
+    width: 250px;
+    height: 200px; }
+  body main section .productos-varios .caja .texto-caja {
+    font-size: 22px; }
+  body main .linea-de-temporada h1 {
+    text-align: center;
+    font-size: 20px;
+    color: black; }
+  body main .linea-de-temporada h2 {
+    font-size: 30px;
+    text-align: center;
+    color: teal; }
+  body main .linea-de-temporada .img-mexico {
+    width: 300px; }
+  body main .linea-de-temporada .texto-temporada p {
+    font-size: 22px; }
+  body main .linea-de-temporada img {
+    width: 400px; }
+  body main .grid-contacto p {
+    font-size: 27px;
+    text-align: center; }
+  body main .grid-contacto .form {
+    width: 300px;
+    background-color: bisque;
+    font-size: 22px; }
+    body main .grid-contacto .form textarea {
+      width: 75%;
+      color: #a5a4a4; } }
 
-@media (max-width: 371px) {
-  .logo-carryonda {
-    margin-inline-start: 40px; } }
+@media (max-width: 407px) {
+  body header .logo-carryonda {
+    margin-inline-start: 40px; }
+  body header .grid-header .collapse .inicio {
+    font-size: 20px; }
+  body main .card1 .grid-img-card1 .card1-img {
+    width: 270px;
+    height: 200px; }
+  body main .card2 .grid-img-card2 .card2-img {
+    width: 270px;
+    height: 270px; }
+  body main .card3 .video-card3 .video {
+    width: 270px;
+    height: 200px; } }
 
 @media (max-width: 347px) {
-  .ecoturismo h1 {
+  body main section .productos-varios .manta-termica img {
+    width: 220px;
+    height: 210px; }
+  body main section .productos-varios .manta-termica .texto-manta-termica {
+    font-size: 17px; }
+  body main section .productos-varios .portadocumento img {
+    width: 210px;
+    height: 260px; }
+  body main section .productos-varios .portadocumento .texto-portadocumentos {
+    font-size: 17px; }
+  body main section .productos-varios .bolsomanta img {
+    width: 210px;
+    height: 260px; }
+  body main section .productos-varios .bolsomanta .texto-bolsomanta {
+    font-size: 17px; }
+  body main section .productos-varios .caja img {
+    width: 220px;
+    height: 210px; }
+  body main section .productos-varios .caja .texto-caja {
+    font-size: 17px; }
+  body main .linea-de-temporada .texto-temporada p {
+    font-size: 15px; }
+  body main .ecoturismo h1 {
     font-size: 30px; }
-  .ecoturismo-video {
+  body main .ecoturismo .ecoturismo-video {
     width: 275px;
-    height: 250; } }
+    height: 250px; } }
 
 @media (max-width: 320px) {
-  .card1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .texto-card1 {
-    font-size: medium; }
-  .card1-img {
-    width: 300px;
-    height: 200px; }
-  .texto-card2 {
-    font-size: medium; }
-  .card2-img {
-    width: 300px;
-    height: 200px; }
-  .texto-card3 {
-    font-size: medium; }
-  .video {
-    width: 300px;
-    height: 200px; }
-  .flexfooter {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-    justify-content: center;
-    text-align: center; } }
+  body header .logo-carryonda {
+    margin-inline-start: 4%; } }

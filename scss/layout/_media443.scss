@@ -1,5 +1,104 @@
 @media(max-width: 443px){
-    .logo-carryonda{
-        margin-inline-start: 74px;
+    body{
+        header{
+            .logo-carryonda{
+                margin-inline-start: 74px;
+            }
+        }
+        main{
+            section{
+                .productos-varios{
+                    h1{
+                        font-size: 35px;
+                    }
+                    .manta-termica{
+                        h2{
+                            font-size: 27px;
+                        }
+                        img{
+                            width: 300px;
+                            height: 270px;
+                        }
+                        .texto-manta-termica{
+                            font-size: 22px;
+                        }
+                    }
+                    .portadocumento{
+                        h2{
+                            font-size: 27px;
+                        }
+                        img{
+                            width: 270px;
+                            height: 300px;
+                        }
+                        .texto-portadocumentos{
+                            font-size: 22px;
+                        }
+                    }
+                    .bolsomanta{
+                        h2{
+                            font-size: 27px;
+                        }
+                        img{
+                            width: 260px;
+                            height: 300px;
+                        }
+                        .texto-bolsomanta{
+                            font-size: 22px;
+                        }
+                    }
+                    .caja{
+                        h2{
+                            font-size: 27px;
+                        }
+                        img{
+                            width: 250px;
+                            height: 200px;
+                        }
+                        .texto-caja{
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+            .linea-de-temporada{
+                h1{
+                    text-align: center;
+                    font-size: 20px;
+                    color: black;
+                }
+                h2{
+                    font-size: 30px;
+                    text-align: center;
+                    color: teal;
+                }
+                .img-mexico{
+                    width: 300px;
+                }
+                .texto-temporada{
+                    p{
+                        font-size: 22px;
+                    }
+                }
+                img{
+                    width: 400px;
+                }
+            }
+            .grid-contacto{
+                p{
+                    font-size: 27px;
+                    text-align: center;
+                } 
+                .form{
+                    width: 300px;
+                    background-color: bisque;
+                    font-size: 22px;
+                    textarea{
+                        width: 75%;
+                        color: rgb(165, 164, 164);
+                    }
+                }
+            }
+        }
     }
 }
