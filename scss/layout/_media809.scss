@@ -1,12 +1,58 @@
 @media(max-width: 809px){
-    .ecoturismo h1{
-        font-size: 50px;
-    }
-    .ecoturismo h2{
-        font-size: 25px;
-    }
-    .ecoturismo-video{
-        width: 500px;
-        height: 450px;
+    body{
+        header{
+            .logo-carryonda{
+                margin-inline-start: 32%;
+            }
+        }
+        main{
+            justify-content: center;
+            align-items: center;
+            .ecoturismo{
+                h1{
+                    font-size: 50px;
+                }
+                h2{
+                    font-size: 25px;
+                }
+                .ecoturismo-video{
+                    width: 500px;
+                    height: 450px;
+                }
+            }
+            .grid-contacto{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                p{
+                    font-size: 50px;
+                    text-align: center;
+                } 
+                .form{
+                    width: 400px;
+                    background-color: bisque;
+                    font-size: 30px;
+                    color: teal;
+                    border-radius: 2%;
+                    border: 2px solid $background-color-general;
+                    text-align: center;
+                    padding: 2%;
+                    textarea{
+                        width: 100%;
+                        color: rgb(165, 164, 164);
+                    }
+                    &:focus-within{
+                        color: black;
+                    }
+                    input[type="submit"]{
+                        cursor: pointer;
+                        &:hover{
+                            color: $background-color-general;
+                            background-color: white;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

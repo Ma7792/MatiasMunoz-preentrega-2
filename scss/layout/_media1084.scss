@@ -12,4 +12,13 @@
             }
         }
     }    
+    footer{
+        .flexfooter{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+        }
+    }
 }

@@ -1,23 +1,43 @@
 @media(max-width: 907px){
-    main{
-        .card1-img{
-            width: 700px;
-            height: 500px;
-        }    
-        .card2-img{
-            width: 700px;
-            height: 500px;
+    body{
+        main{
+            .card1{
+                .grid-img-card1{
+                    .card1-img{
+                        width: 550px;
+                        height: 400px;
+                    }
+                }    
+            }
+            .card2{
+                .grid-img-card2{
+                    .card2-img{
+                        width: 550px;
+                    height: 400px;
+                    }
+                }
+            }
+            .card3{
+                .video-card3{
+                    .video{
+                        width: 550px;
+                        height: 400px;
+                    }
+                }
+            }
         }
-        .video{
-            width: 700px;
-            height: 500px;
-        }
-}
-    footer{ 
-        .flexfooter{
+        footer {
             display: flex;
-            flex-direction: column;
-            gap: .3125rem;
+            justify-content: center;
+            align-items: center;
+            .flexfooter {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+                gap: 10px;
+            }
         }
     }
 }

@@ -34,4 +34,20 @@
             }
         }
     }
+    footer{
+        background-color: $background-color-general;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        .flexfooter{
+            list-style: none;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            gap: 120px;
+            justify-content: center;
+            text-align: center;
+        }
+    }
 }

@@ -116,13 +116,13 @@
             background-color: $background-color-general;
             text-decoration: none;
             color: white;
+            gap: 80px;
             .flexfooter{
                 list-style: none;
                 text-decoration: none;
                 color: white;
                 display: flex;
                 flex-direction: row;
-                gap: 100px;
                 justify-content: center;
                 text-align: center;
             }
