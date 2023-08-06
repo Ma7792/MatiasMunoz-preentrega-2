@@ -201,45 +201,35 @@ main {
       main section .productos-varios h1 {
         color: teal;
         font-size: 90px; }
-      main section .productos-varios .manta-termica {
+      main section .productos-varios .manta-termica, main section .productos-varios .portadocumento, main section .productos-varios .bolsomanta {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center; }
-        main section .productos-varios .manta-termica h2 {
+        main section .productos-varios .manta-termica h2, main section .productos-varios .portadocumento h2, main section .productos-varios .bolsomanta h2 {
           font-size: 60px; }
-        main section .productos-varios .manta-termica img {
+        main section .productos-varios .manta-termica img, main section .productos-varios .portadocumento img, main section .productos-varios .bolsomanta img {
           width: 900px;
           height: 500px; }
-        main section .productos-varios .manta-termica .texto-manta-termica {
+        main section .productos-varios .manta-termica .texto-manta-termica, main section .productos-varios .portadocumento .texto-manta-termica, main section .productos-varios .bolsomanta .texto-manta-termica {
           font-size: 35px;
           text-align: left; }
-      main section .productos-varios .portadocumento {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        main section .productos-varios .portadocumento h2 {
-          font-size: 60px; }
-        main section .productos-varios .portadocumento img {
-          width: 900px;
-          height: 700px; }
-        main section .productos-varios .portadocumento .texto-portadocumentos {
-          font-size: 35px;
-          text-align: left; }
-      main section .productos-varios .bolsomanta {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        main section .productos-varios .bolsomanta h2 {
-          font-size: 60px; }
-        main section .productos-varios .bolsomanta img {
-          width: 900px;
-          height: 800px; }
-        main section .productos-varios .bolsomanta .texto-bolsomanta {
-          font-size: 40px;
-          text-align: left; }
+      main section .productos-varios .portadocumento h2 {
+        font-size: 60px; }
+      main section .productos-varios .portadocumento img {
+        width: 900px;
+        height: 700px; }
+      main section .productos-varios .portadocumento .texto-portadocumentos {
+        font-size: 35px;
+        text-align: left; }
+      main section .productos-varios .bolsomanta h2 {
+        font-size: 60px; }
+      main section .productos-varios .bolsomanta img {
+        width: 900px;
+        height: 800px; }
+      main section .productos-varios .bolsomanta .texto-bolsomanta {
+        font-size: 40px;
+        text-align: left; }
       main section .productos-varios .caja {
         display: flex;
         flex-direction: column;
@@ -310,8 +300,7 @@ footer {
       text-align: center; } }
 
 @media (max-width: 101.8125rem) {
-  .inicio
-li a {
+  .inicio li a {
     text-decoration: none;
     color: white;
     display: inline;
@@ -521,17 +510,17 @@ main .color-main {
     main section .productos-varios h1 {
       color: teal;
       font-size: 75px; }
-    main section .productos-varios .manta-termica {
+    main section .productos-varios .manta-termica, main section .productos-varios .portadocumento, main section .productos-varios .bolsomanta {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      main section .productos-varios .manta-termica h2 {
+      main section .productos-varios .manta-termica h2, main section .productos-varios .portadocumento h2, main section .productos-varios .bolsomanta h2 {
         font-size: 55px; }
-      main section .productos-varios .manta-termica img {
+      main section .productos-varios .manta-termica img, main section .productos-varios .portadocumento img, main section .productos-varios .bolsomanta img {
         width: 500px;
         height: 300px; }
-      main section .productos-varios .manta-termica .texto-manta-termica {
+      main section .productos-varios .manta-termica .texto-manta-termica, main section .productos-varios .portadocumento .texto-manta-termica, main section .productos-varios .bolsomanta .texto-manta-termica {
         font-size: 30px;
         text-align: left; }
     main section .productos-varios .portadocumento {
@@ -728,12 +717,12 @@ main .color-main {
   body main section .productos-varios h1 {
     color: teal;
     font-size: 70px; }
-  body main section .productos-varios .manta-termica h2 {
+  body main section .productos-varios .manta-termica h2, body main section .productos-varios .portadocumento h2, body main section .productos-varios .bolsomanta h2 {
     font-size: 50px; }
-  body main section .productos-varios .manta-termica img {
+  body main section .productos-varios .manta-termica img, body main section .productos-varios .portadocumento img, body main section .productos-varios .bolsomanta img {
     width: 400px;
     height: 300px; }
-  body main section .productos-varios .manta-termica .texto-manta-termica {
+  body main section .productos-varios .manta-termica .texto-manta-termica, body main section .productos-varios .portadocumento .texto-manta-termica, body main section .productos-varios .bolsomanta .texto-manta-termica {
     font-size: 28px;
     text-align: left; }
   body main section .productos-varios .portadocumento h2 {
@@ -778,12 +767,12 @@ main .color-main {
     margin-inline-start: 74px; }
   body main section .productos-varios h1 {
     font-size: 35px; }
-  body main section .productos-varios .manta-termica h2 {
+  body main section .productos-varios .manta-termica h2, body main section .productos-varios .portadocumento h2, body main section .productos-varios .bolsomanta h2 {
     font-size: 27px; }
-  body main section .productos-varios .manta-termica img {
+  body main section .productos-varios .manta-termica img, body main section .productos-varios .portadocumento img, body main section .productos-varios .bolsomanta img {
     width: 300px;
     height: 270px; }
-  body main section .productos-varios .manta-termica .texto-manta-termica {
+  body main section .productos-varios .manta-termica .texto-manta-termica, body main section .productos-varios .portadocumento .texto-manta-termica, body main section .productos-varios .bolsomanta .texto-manta-termica {
     font-size: 22px; }
   body main section .productos-varios .portadocumento h2 {
     font-size: 27px; }
@@ -847,10 +836,12 @@ main .color-main {
     height: 200px; } }
 
 @media (max-width: 347px) {
-  body main section .productos-varios .manta-termica img {
+  body header .logo-carryonda {
+    margin-inline-start: 10px; }
+  body main section .productos-varios .manta-termica img, body main section .productos-varios .portadocumento img, body main section .productos-varios .bolsomanta img {
     width: 220px;
     height: 210px; }
-  body main section .productos-varios .manta-termica .texto-manta-termica {
+  body main section .productos-varios .manta-termica .texto-manta-termica, body main section .productos-varios .portadocumento .texto-manta-termica, body main section .productos-varios .bolsomanta .texto-manta-termica {
     font-size: 17px; }
   body main section .productos-varios .portadocumento img {
     width: 210px;

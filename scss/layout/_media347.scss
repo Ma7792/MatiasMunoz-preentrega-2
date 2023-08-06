@@ -1,5 +1,10 @@
 @media(max-width: 347px){
     body{
+        header{
+            .logo-carryonda{
+                margin-inline-start: 10px;
+            }
+        }
         main{
             section{
                 .productos-varios{
