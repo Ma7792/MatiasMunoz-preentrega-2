@@ -1,17 +1,26 @@
 @media(max-width: 1291px){
-    .ecoturismo h1{
-        font-size: 80px;
-    }
-    .ecoturismo h2{
-        font-size: 30px;
-    }
-    .ecoturismo-video{
-        width: 800px;
-        height: 700px;
-    }
-    .flexfooter{
-        gap: 80px;
+    main{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        text-align: center;
+        .ecoturismo{
+            h1{
+            font-size: 80px;
+            }
+            h2{
+                font-size: 30px;
+            }
+            .ecoturismo-video{
+                width: 800px;
+                height: 700px;
+            }
+        }
+    }
+    footer{
+        .flexfooter{
+            gap: 80px;
+            justify-content: center;
+            text-align: center;
+        }
     }
 }

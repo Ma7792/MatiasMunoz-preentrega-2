@@ -85,6 +85,9 @@ main{
             grid-row: 1/3;
             font-size: 35px;
             text-align: right;
+            h2{
+                color: teal;
+            }
         }
         .video-card3{
             grid-column: 4/7;
@@ -118,23 +121,26 @@ main{
             height: 1000px;
         }
     }
-    .linea-de-temporada-flex{
+    .linea-de-temporada{
+        grid-column: 2/7;
+        grid-row: 1/4;
         display: flex;
         flex-direction: column;
         justify-content: first baseline;
         align-items: center;
+        text-align: center;
         h1{
+            text-align: center;
             font-size: 40px;
             color: black;
         }
         h2{
             font-size: 70px;
             text-align: center;
-            color: $background-color-general;
+            color: teal;
         }
         .img-mexico{
-            grid-column: 3/5;
-            grid-row: 3/4;
+            width: 600px;
         }
         .texto-temporada{
             grid-column: 2/5;
@@ -234,19 +240,31 @@ main{
                     font-size: 60px;
                 }
                 img{
-                    width: 700px;
-                    height: 900px
+                    width: 900px;
+                    height: 800px
                 }
                 .texto-bolsomanta{
-                    font-size: 35px;
+                    font-size: 40px;
                     text-align: left;
                 }
             }
-            .caja-de-recuerdos{
-                @extend .portadocumento
+            .caja{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    font-size: 60px;
+                }
+                img{
+                    width: 900px;
+                    height: 700px;
+                }
+                .texto-caja{
+                    font-size: 40px;
+                    text-align: left;
+                }
             }
-
         }
     }
-    
 }

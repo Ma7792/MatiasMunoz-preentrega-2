@@ -1,0 +1,17 @@
+@media (max-width: 1485px){
+header{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    .logo-carryonda{
+        display: block;
+        margin-inline-start: 40%;
+        margin-inline-end: 60%;
+    }
+}
+}
+main{
+    .color-main{
+        align-content: center;
+    }
+}
