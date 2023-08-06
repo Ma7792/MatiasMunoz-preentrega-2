@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -459,74 +460,99 @@ main .color-main {
     text-align: center; } }
 
 @media (max-width: 1084px) {
-  .menu-burger {
+  header .grid-header .menu-burger {
     display: flex; }
-  .inicio {
-    display: inline-block; }
-  .menu-barra {
+    header .grid-header .menu-burger .inicio {
+      display: inline-block; }
+  header .grid-header .menu-barra {
     display: none; } }
 
-@media (max-width: 1059px) {
-  ul {
-    display: none; }
-  input:checked ~ ul {
-    display: block; }
-  input {
-    display: none; }
-  label {
-    box-sizing: border-box;
-    display: inline-block;
-    border: 1px solid teal;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    text-align: center;
-    user-select: none; }
-  li {
-    display: block;
-    background-color: teal;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-    border-bottom: 1px solid white; } }
-
+/*ul{
+        display: none;
+    }
+    input:checked ~ ul{
+        display: block;
+    }
+    li{
+        display: block;
+        background-color: teal;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid white;
+    }
+} media no útil ya*/
 @media (max-width: 1043px) {
   header {
     display: flex;
     flex-direction: column;
     justify-content: center; }
   .logo-carryonda {
-    margin-inline-start: 36%; }
-  ul {
-    display: none; }
-  input:checked ~ ul {
-    display: block; }
-  input {
-    display: none; }
-  label {
-    box-sizing: border-box;
-    display: inline-block;
-    border: 1px solid teal;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    text-align: center;
-    user-select: none; }
-  li {
-    display: block;
-    background-color: teal;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-    border-bottom: 1px solid white; } }
+    margin-inline-start: 36%; } }
 
-@media (max-width: 911px) {
-  .texto-card3 {
-    font-size: 27px; } }
+@media (max-width: 1000px) {
+  main .texto-card3 {
+    font-size: 27px; }
+  main section .productos-varios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main section .productos-varios h1 {
+      color: teal;
+      font-size: 75px; }
+    main section .productos-varios .manta-termica {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main section .productos-varios .manta-termica h2 {
+        font-size: 55px; }
+      main section .productos-varios .manta-termica img {
+        width: 500px;
+        height: 300px; }
+      main section .productos-varios .manta-termica .texto-manta-termica {
+        font-size: 30px;
+        text-align: left; }
+    main section .productos-varios .portadocumento {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main section .productos-varios .portadocumento h2 {
+        font-size: 55px; }
+      main section .productos-varios .portadocumento img {
+        width: 500px;
+        height: 400px; }
+      main section .productos-varios .portadocumento .texto-portadocumentos {
+        font-size: 30px;
+        text-align: left; }
+    main section .productos-varios .bolsomanta {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main section .productos-varios .bolsomanta h2 {
+        font-size: 55px; }
+      main section .productos-varios .bolsomanta img {
+        width: 500px;
+        height: 450px; }
+      main section .productos-varios .bolsomanta .texto-bolsomanta {
+        font-size: 30px;
+        text-align: left; }
+    main section .productos-varios .caja {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main section .productos-varios .caja h2 {
+        font-size: 55px; }
+      main section .productos-varios .caja img {
+        width: 500px;
+        height: 300px; }
+      main section .productos-varios .caja .texto-caja {
+        font-size: 30px;
+        text-align: left; } }
 
 @media (max-width: 909px) {
   header {
@@ -537,16 +563,16 @@ main .color-main {
     margin-inline-start: 34%; } }
 
 @media (max-width: 907px) {
-  .card1-img {
+  main .card1-img {
     width: 700px;
     height: 500px; }
-  .card2-img {
+  main .card2-img {
     width: 700px;
     height: 500px; }
-  .video {
+  main .video {
     width: 700px;
     height: 500px; }
-  .flexfooter {
+  footer .flexfooter {
     display: flex;
     flex-direction: column;
     gap: .3125rem; } }

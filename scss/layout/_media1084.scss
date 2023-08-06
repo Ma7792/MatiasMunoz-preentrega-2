@@ -1,11 +1,15 @@
 @media(max-width: 1084px){
-    .menu-burger{
-        display: flex;
-    }
-    .inicio{
-        display: inline-block;
-    }
-    .menu-barra{
-        display: none;
+    header{
+        .grid-header{
+            .menu-burger{
+                display: flex;
+                .inicio{
+                display: inline-block;
+                }
+            }
+            .menu-barra{
+                display: none;
+            }
+        }
     }    
 }

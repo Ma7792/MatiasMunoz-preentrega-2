@@ -1,5 +1,87 @@
-@media(max-width: 911px){
-    .texto-card3{
-        font-size: 27px;
+@media(max-width: 1000px){
+    main{
+        .texto-card3{
+            font-size: 27px;
+        }
+        section{
+            .productos-varios{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h1{
+                    color: $background-color-general;
+                    font-size: 75px;
+                }
+                .manta-termica{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    h2{
+                        font-size: 55px;
+                    }
+                    img{
+                        width: 500px;
+                        height: 300px
+                    }
+                    .texto-manta-termica{
+                        font-size: 30px;
+                        text-align: left;
+                    }
+                }
+                .portadocumento{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;    
+                    h2{
+                        font-size: 55px;
+                    }
+                    img{
+                        width: 500px;
+                        height: 400px
+                    }
+                    .texto-portadocumentos{
+                        font-size: 30px;
+                        text-align: left;
+                    }            
+                }
+                .bolsomanta{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;    
+                    h2{
+                        font-size: 55px;
+                    }
+                    img{
+                        width: 500px;
+                        height: 450px
+                    }
+                    .texto-bolsomanta{
+                        font-size: 30px;
+                        text-align: left;
+                    }
+                }
+                .caja{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    h2{
+                        font-size: 55px;
+                    }
+                    img{
+                        width: 500px;
+                        height: 300px;
+                    }
+                    .texto-caja{
+                        font-size: 30px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
     }
 }
