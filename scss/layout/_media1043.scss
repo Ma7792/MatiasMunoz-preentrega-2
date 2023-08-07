@@ -7,4 +7,15 @@
             margin-inline-start: 36%;
         }
     }
+    footer{
+        .flexfooter{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            gap: 100px;
+            }
+    }
 }

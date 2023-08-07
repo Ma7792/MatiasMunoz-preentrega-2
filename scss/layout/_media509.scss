@@ -6,7 +6,11 @@
             }
         }
         main{
-            
+            .linea-de-temporada{
+                .img-mexico{
+                    @include sizes(400px, 300px)
+                }
+            }
             .ecoturismo{
                 h1{
                     color: $background-color-general;

@@ -119,6 +119,8 @@ main{
         .ecoturismo-video{
             width: 1200px;
             height: 1000px;
+            border-radius: 5%;
+            border: 2px solid $background-color-general;
         }
     }
     .linea-de-temporada{
@@ -141,6 +143,7 @@ main{
         }
         .img-mexico{
             width: 600px;
+            border: none;
         }
         .texto-temporada{
             grid-column: 2/5;
@@ -151,6 +154,8 @@ main{
         }
         img{
             width: 400px;
+            border-radius: 15%;
+            border: 2px solid $background-color-general;
         }
     }
     .grid-contacto{
@@ -207,6 +212,8 @@ main{
                 }
                 img{
                     @include sizes(900px, 500px);
+                    border-radius: 15%;
+                    border: 2px solid $background-color-general;
                 }
                 .texto-manta-termica{
                     font-size: 35px;
@@ -220,6 +227,7 @@ main{
                 }
                 img{
                     @include sizes(900px, 700px);
+                    @extend .manta-termica
                 }
                 .texto-portadocumentos{
                     font-size: 35px;
@@ -241,10 +249,7 @@ main{
                 }
             }
             .caja{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                @extend .manta-termica;
                 h2{
                     font-size: 60px;
                 }
