@@ -249,7 +249,9 @@ main {
 footer {
   background-color: teal;
   text-decoration: none;
-  color: white; }
+  color: white;
+  justify-content: center;
+  align-items: center; }
   footer .flexfooter {
     list-style: none;
     text-decoration: none;
@@ -258,7 +260,8 @@ footer {
     flex-direction: row;
     gap: 12.5rem;
     justify-content: center;
-    text-align: center; }
+    text-align: center;
+    margin: 0; }
 
 @media (max-width: 1630px) {
   header a {
