@@ -8,6 +8,10 @@ header{
         margin-inline-start: 40%;
         margin-inline-end: 60%;
     }
+    .slide-in-fwd-center {
+        -webkit-animation: slide-in-fwd-center 0.9s both;
+        animation: slide-in-fwd-center 0.9s both;
+    }
 }
 }
 main{
